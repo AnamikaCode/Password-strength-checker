@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c4ffe6;
+}
+
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  margin-top: 19.5%;
+  background-color: #2b8083;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(17, 179, 219, 0.1);
+  position: relative;
+}
+
+.container:hover {
+  box-shadow: 0 0 5px rgb(19, 114, 109), 0 0 25px rgb(19, 114, 109), 0 0 50pc rgb(19, 114, 109), 0 0 100px rgb(19, 114, 109), 0 0 200px rgb(19, 114, 109);
+}
+
+input {
+  width: 90%;
+  padding: 12px; 
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 3px solid #09997546;
+  border-radius: 3px;
+  outline: none;
+  font-size: 18px; 
+  color: #141414;
+}
+
+#password {
+  padding-right: 10px;
+}
+
+#togglePassword {
+  position:fixed;
+  top: 53.5%;
+  right: 39%;
+}
+
+
+button {
+  padding: 12px 24px; 
+  background-color: #065bb6;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 0 auto ;
+  display: block;
+}
+
+button:hover {
+  background-color: #03b8ff;
+}
+
+#strength {
+  margin-top: 10px;
+  font-weight: 1000; 
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+#strength.weak {
+  color: rgb(180, 12, 12);
+}
+
+#strength.moderate {
+  color: orange;
+}
+
+#strength.good {
+  color: yellow;
+}
+
+#strength.strong {
+  color: rgb(0, 253, 0);
+}
+
+#strength.very-strong {
+  color: rgb(0, 0, 255);
+}
+
+#strength {
+  font-size: 16px; 
+}
